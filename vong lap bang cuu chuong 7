@@ -1,0 +1,24 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.demobuoi5;
+
+/**
+ *
+ * @author admin
+ */
+public class Demobuoi5 {
+
+    public static void main(String[] args) {
+        int i = 1;
+        while (i < 11){
+            //Cach dai:
+            int ketQua = 7 * i;
+            System.out.printf("cach dai 7 * %d = %d \n", i, ketQua);
+            //Cach ngan:
+            System.out.printf("cach ngan 7 * %d = %d \n", i, 7 * i);
+            i++;
+        }
+    }
+}
