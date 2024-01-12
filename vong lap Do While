@@ -1,0 +1,18 @@
+package com.mycompany.demobuoi5;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author admin
+ */
+public class diem0_10 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int diem = 0;
+        do{
+            System.out.print("Vui long nhap diem: ");
+            diem = sc.nextInt();
+        }while(!(0 <= diem && diem <= 10));
+    }
+}
