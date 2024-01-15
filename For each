@@ -1,0 +1,31 @@
+package demobuoi6;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author admin
+ */
+public class Demobuoi6 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a[] = new int[5];
+        double tong = 0;
+        for(int i = 0; i < a.length;i++){
+            System.out.printf("Vui long nhap gia tri cua phan tu %d: ", i);
+            a[i] = sc.nextInt();
+            tong += a[i];
+        }
+        System.out.println("Trung binh cong cua mang la: "+ tong/(a.length));
+        
+        System.out.print("Lap phuong cua cac phan tu la: ");
+        for(int x: a){
+            System.out.printf(" %.0f", Math.pow(x, 3));
+        }
+    }
+    
+}
