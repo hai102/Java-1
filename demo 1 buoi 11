@@ -1,0 +1,25 @@
+package demo_buoi11;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author admin
+ */
+public class Demo_buoi11 {
+
+    
+    public static void main(String[] args) {
+           Scanner sc = new Scanner(System.in);
+           System.out.print("Vui long nhap username: ");
+           String username = sc.nextLine();
+           System.out.print("Vui long nhap password: ");
+           String password = sc.nextLine();
+           if(username.equalsIgnoreCase("Hello") && password.length() > 6){
+               System.out.println("Nhap dung");
+           }else {
+               System.out.println("Nhap sai");
+           }
+    }
+    
+}
